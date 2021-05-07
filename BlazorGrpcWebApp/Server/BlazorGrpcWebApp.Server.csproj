@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>8af4fe38-2c88-4f43-ac94-489e99b3e199</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.35.0" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.35.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\BlazorGrpcWebApp.Client.csproj" />
+    <ProjectReference Include="..\Shared\BlazorGrpcWebApp.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>
