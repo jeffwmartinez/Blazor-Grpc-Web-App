@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'jeffdotnet5'
         slot-name: 'dev'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fc19868b328d4460893867a223fb7c66 }}
+        publish-profile: ${{ secrets.APP_SERVICE_PUBLISH_PROFILE }}
         package: .
